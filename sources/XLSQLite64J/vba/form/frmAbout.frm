@@ -135,7 +135,7 @@ End Sub
 Private Sub lblsqlite4xl_Click()
     Dim sqlite4xl As String
     
-    sqlite4xl = "http://sqliteforexcel.codeplex.com/"
+    sqlite4xl = "https://github.com/govert/SQLiteForExcel"
     
     On Error Resume Next
     
