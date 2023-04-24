@@ -2,13 +2,13 @@
 
 ## 概要
 
-ExcelからSQLiteを使うためのアドインです。
-
+ExcelからSQLiteを使うためのアドインです。  
+  
 このアドインを組み込むことで、Excel 上から SQLite データベースを作成・操作することができます。また定義されたユーザー関数を用いて直接SELECT文を実行し、その結果を配列式あるいはスピルによってセル範囲に返すこともできます。
 
 ## SQLite for Excel
 
-内部の処理でSQLite for Excelを利用しています。
+内部の処理でSQLite for Excelを利用しています。  
 https://github.com/govert/SQLiteForExcel
 
 ## ファイルの説明
@@ -28,8 +28,8 @@ https://github.com/govert/SQLiteForExcel
 ### SQLite関係ファイル
 
 - SQLite3.dll
-  SQLiteの本体です。アドインと同じフォルダに置いてください。
-  このリポジトリには64bit版を置いています。
+  SQLiteの本体です。アドインと同じフォルダに置いてください。  
+  このリポジトリには64bit版を置いています。  
   32bit版のExcelで実行するときには、SQLiteのプロジェクトのホームページから32bit版のSQLite3.dllおよびSQLite3_StdCall.dllを入手して置いてください。
 
 ### オリジナル(移植元)
@@ -45,7 +45,7 @@ https://github.com/govert/SQLiteForExcel
 
 ### ユーザー定義関数 SQLite_Query
 
-指定されたSELECT文を実行し、結果を配列式もしくはスピルでセル範囲に展開します。
+指定されたSELECT文を実行し、結果を配列式もしくはスピルでセル範囲に展開します。  
 
 - 引数1: データベースファイルのファイル名(パス指定可)
 - 引数2: SELECT文の文字列
@@ -53,7 +53,7 @@ https://github.com/govert/SQLiteForExcel
 
 ### ツールバー
 
-XLSQLiteツールバーがリボンに組み込まれます。以下の機能があります。
+XLSQLiteツールバーがリボンに組み込まれます。以下の機能があります。  
 
 - Create/Add SQLite table
   SQLiteのテーブルの管理ができます(作成、変更など)。
@@ -62,8 +62,8 @@ XLSQLiteツールバーがリボンに組み込まれます。以下の機能が
 
 ## プロジェクトのソースコード
 
-sourcesディレクトリの下には本プロジェクトのVBAソースコードが格納されており、以下のプロジェクトをpre-commitで利用することで、コミット時に自動的に抽出されています。
-<https://github.com/rootassist/extract_vba_source>
+sourcesディレクトリの下には本プロジェクトのVBAソースコードが格納されており、以下のプロジェクトをpre-commitで利用することで、コミット時に自動的に抽出されています。  
+<https://github.com/rootassist/extract_vba_source>  
 ※forkした上で仕様変更とバグ修正を行っています。
 
 具体的には、上記のリポジトリからextract_vba_source.pyをダウンロードして.git/hooks/の下に置きます。また.git/hooks/pre-commit には以下のように記載します。
@@ -82,8 +82,8 @@ git add -- ./sources
 
 ## オリジナルのライセンス
 
-このプロジェクトのオリジナルはMark Camilleriによって作成されたもので、これを64bit対応、UIの日本語化、およびスピル対応を行いました。
-オリジナルはライセンスはMITライセンスとなっています。
+このプロジェクトのオリジナルはMark Camilleriによって作成されたもので、これを64bit対応、UIの日本語化、およびスピル対応を行いました。  
+オリジナルはライセンスはMITライセンスとなっています。  
 <https://www.gatekeeperforexcel.com/other-freebies.html>
 
 LICENSE:
