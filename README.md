@@ -15,7 +15,7 @@ https://github.com/govert/SQLiteForExcel
 
 ### アドイン本体
 
-- XLSQLite64J.xlam
+- XLSQLite64J.xlam  
   アドイン本体です(64bit/UI日本語/スピル対応済み)。Excelアドインとして組み込む必要があります。
 
 ### デモプログラム
