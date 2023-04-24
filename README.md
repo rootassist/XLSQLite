@@ -20,23 +20,23 @@ https://github.com/govert/SQLiteForExcel
 
 ### デモプログラム
 
-- SQLite_DemoJ.xlsx
+- SQLite_DemoJ.xlsx  
   アドインのデモプログラムです(64bit/スピル対応済み)。
-- XLSQLiteDemo.sqlite
+- XLSQLiteDemo.sqlite  
   デモで使用するデータベースです。
 
 ### SQLite関係ファイル
 
-- SQLite3.dll
+- SQLite3.dll  
   SQLiteの本体です。アドインと同じフォルダに置いてください。  
   このリポジトリには64bit版を置いています。  
   32bit版のExcelで実行するときには、SQLiteのプロジェクトのホームページから32bit版のSQLite3.dllおよびSQLite3_StdCall.dllを入手して置いてください。
 
 ### オリジナル(移植元)
 
-- XLSQLite.xlam
+- XLSQLite.xlam  
   オリジナルのアドインです。
-- SQLite_Demo.xlsm
+- SQLite_Demo.xlsm  
   オリジナルのデモプログラムです。
 
 ## 使い方
@@ -55,9 +55,9 @@ https://github.com/govert/SQLiteForExcel
 
 XLSQLiteツールバーがリボンに組み込まれます。以下の機能があります。  
 
-- Create/Add SQLite table
+- Create/Add SQLite table  
   SQLiteのテーブルの管理ができます(作成、変更など)。
-- SQL Editor
+- SQL Editor  
   SELECT文を入力することで、結果を新しいワークブックに出力できます。
 
 ## プロジェクトのソースコード
